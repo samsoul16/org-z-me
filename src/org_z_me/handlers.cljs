@@ -43,8 +43,3 @@
  :set-key-val
  (fn [db [_ k v]]
    (assoc db k v)))
-
-(reg-event-db
- :add-task
- (fn [db [_ task]]
-   (assoc db :tasks (conj (:tasks db) task))))
