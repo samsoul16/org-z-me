@@ -99,7 +99,8 @@
                                :on-press #(reset! dialog? true)}
           [text {:style {:text-align "center" :font-weight "bold"}} "ADD NEW TASK"]]]))))
 
-(def OrgStack (stack-navigator {:Org {:screen (stack-screen organizer {:title "Org-Z-mE" :headerBackTitle " "})}}
+(def OrgStack (stack-navigator {:Org {:screen (stack-screen organizer {:title "Org-Z-mE" :headerBackTitle " "
+                                                                       :headerTintColor "#000000"})}}
                                {:initialRoute "Org" :initialRouteParams {:id 0}}))
 
 (defn app-root []

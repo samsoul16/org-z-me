@@ -41,4 +41,6 @@
                                                                    :parallel-build     true
                                                                    :optimize-constants true
                                                                    :optimizations      :advanced
+                                                                   :language-in        :ecmascript5
+                                                                   :language-out       :ecmascript5
                                                                    :closure-defines    {"goog.DEBUG" false}}}]}}})
